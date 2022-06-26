@@ -31,10 +31,10 @@ npm start
 
 ## Assignment3 Solving - `Validation`
 
-- validation을 정규표현식을 통해 확인하는 함수를 만들어 체크 하도록 구현하였습니다.
-- 하나의 `input`컴포넌트가 ID 와 PW에 공통으로 사용되고 그로 인해 독립적인 validation에 어려움이 있어 커스텀훅을 통해 validation 상태 및 함수를 전달받는 형식으로 해결해 보았습니다.
+- validation을 정규표현식을 통해 확인하는 함수를 만들어 체크 하도록 구현 하였습니다.
+- 하나의 `input`컴포넌트가 ID 와 PW에 공통으로 사용되고 그로 인해 독립적인 validation에 어려움이 있어 커스텀훅을 통해 validation 상태 및 함수를 전달받는 형식으로 구현 하였습니다.
 - ID가 Email형식이 아니거나 PW가 지정된 정규 표현식에 맞지 않는경우 `input`의 border색상을 red로 변경되도록 구현하였습니다.
-- validation상태와 ID and PW의 값에 대해 `button`컴포넌트도 참조해야 될 필요성이 있어 상태와 `input`의 값을 `contextApi`를 통한 전역상태로 관리 하였고 그로 인해 `button`컴포넌트가 과제의 validation 내용에 맞게 활성화 및 비활성화 될 수 있도록 구현 했습니다.
+- validation상태와 ID and PW의 값에 대해 `button`컴포넌트도 참조해야 될 필요성이 있어 상태와 `input`의 값을 `contextApi`를 통한 전역상태로 관리 하였고 그로 인해 `button`컴포넌트가 과제의 validation 내용에 맞게 활성화 및 비활성화 될 수 있도록 구현 하였습니다.
 
 ## Assignment4 Solving - `Routing`
 
@@ -43,9 +43,6 @@ npm start
 
 ## Assignment5 Solving - `Feeds`
 
-- 피드 컴포넌트를 개발합니다.
-- 레이아웃을 인스타그램과 동일하게 구현해주시면 됩니다. (픽셀 단위까지 맞추실 필요는 없으나 보기에 자연스럽도록 개발해주세요.)
-- 각 Feed의 정보는 public/data 디렉토리에 json형식으로 구성하여 fetch, axios 등을 이용하여 data를 요청해야 합니다.
 - Feed 정보는 public/data 디렉토리에 json형식으로 구성하였으며 fetch함수를 이용하여 data fetching을 구현하였습니다.
 - 각각 Feed에 댓글을 Enter key & 클릭으로도 추가 할수 있도록 구현 하였습니다.
 - Feed의 댓글은 `state`로 추가 되도록 구현하였으며 새로고침 하게 되면 저장된 상태가 초기화 되면서 fetch된 데이터의 댓글만 남도록 구현 하였습니다.
