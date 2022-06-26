@@ -1,0 +1,62 @@
+[
+  {
+    "feedId": 1,
+    "userName": "User1",
+    "imageUrl": "https://source.unsplash.com/random/600x500",
+    "likes": 10,
+    "comments": [
+      {
+        "commentId": 1,
+        "feedId": 1,
+        "userName": "User1Friend1",
+        "content": "안녕하세요"
+      },
+      {
+        "commentId": 2,
+        "feedId": 1,
+        "userName": "User1Friend2",
+        "content": "반갑습니다"
+      }
+    ]
+  },
+  {
+    "feedId": 2,
+    "userName": "User2",
+    "imageUrl": "https://source.unsplash.com/random/900x500",
+    "likes": 33,
+    "comments": [
+      {
+        "commentId": 3,
+        "feedId": 2,
+        "userName": "User2Friend1",
+        "content": "안녕하세요"
+      },
+      {
+        "commentId": 4,
+        "feedId": 2,
+        "userName": "User2Friend2",
+        "content": "반가워요"
+      }
+    ]
+  },
+  {
+    "feedId": 3,
+    "userName": "User3",
+    "imageUrl": "https://source.unsplash.com/random/700x1080",
+    "likes": 236,
+    "comments": [
+      {
+        "commentId": 5,
+        "feedId": 3,
+        "userName": "User3Friend1",
+        "content": "안녕하세요"
+      },
+      {
+        "commentId": 6,
+        "feedId": 3,
+        "userName": "User3Friend2",
+        "content": "반갑습니다"
+      }
+    ]
+  }
+]
