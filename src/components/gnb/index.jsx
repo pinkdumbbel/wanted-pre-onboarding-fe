@@ -41,4 +41,9 @@ const GnbContentBox = styled.div`
   max-width: 975px;
   padding: 0 20px;
   width: 100%;
+
+  @media screen and (max-width: 640px) {
+    /* justify-content: space-between; */
+    padding: 0px;
+  }
 `;

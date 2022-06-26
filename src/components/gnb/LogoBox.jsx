@@ -19,6 +19,10 @@ const LogoContainer = styled.div`
   flex-direction: column;
   position: relative;
   align-items: stretch;
+
+  @media screen and (max-width: 281px) {
+    display: none;
+  }
 `;
 
 const LogoWrapper = styled.div`

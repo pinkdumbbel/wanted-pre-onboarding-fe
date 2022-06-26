@@ -48,6 +48,12 @@ const MenuContainer = styled.div`
 const MenuWrapper = styled.div`
   display: flex;
   padding-left: 24px;
+
+  @media screen and (max-width: 281px) {
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 0px;
+  }
 `;
 
 const MenuIconContent = styled.div`
@@ -57,5 +63,11 @@ const MenuIconContent = styled.div`
 
   &:not(:first-child) {
     margin-left: 22px;
+  }
+
+  @media screen and (max-width: 415px) {
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
   }
 `;
